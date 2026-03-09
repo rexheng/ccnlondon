@@ -6,7 +6,7 @@
 (() => {
   'use strict';
 
-  const counters = document.querySelectorAll('.stats__number');
+  const counters = document.querySelectorAll('.stats__number:not(.stats__number--static)');
   if (counters.length === 0) return;
 
   const duration = 2000; // ms

@@ -11,7 +11,7 @@
   <meta property="og:description" content="Data-driven strategic consulting, delivered by London's brightest student talent. Zero cost. Full commitment. Professional output.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ccnlondon.co">
-  <meta property="og:image" content="https://ccnlondon.co/assets/img/logo-colour.svg">
+  <meta property="og:image" content="https://ccnlondon.co/assets/img/logo-colour.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -25,7 +25,7 @@
     "@type": "Organization",
     "name": "Cambridge Consulting Network — London Office",
     "url": "https://ccnlondon.co",
-    "logo": "https://ccnlondon.co/assets/img/logo-colour.svg",
+    "logo": "https://ccnlondon.co/assets/img/logo-colour.png",
     "description": "The 2nd largest student project-consultancy globally, delivering pro-bono strategic consulting from London's top universities.",
     "email": "ccnlondonclients@gmail.com",
     "foundingDate": "2013",
@@ -46,7 +46,7 @@
   <header class="navbar navbar--animate" role="banner">
     <div class="navbar__inner">
       <a href="index.html" class="navbar__logo" aria-label="CCN London Home">
-        <img src="assets/img/logo-colour.svg" alt="CCN London logo" width="180" height="48">
+        <img src="assets/img/logo-colour.png" alt="CCN London logo" width="180" height="48">
       </a>
 
       <nav class="navbar__links" aria-label="Main navigation">
@@ -86,21 +86,22 @@
   <!-- ════════════ MAIN CONTENT ════════════ -->
   <main id="main-content">
 
-    <!-- ── Hero ── -->
+     <!-- ── Hero ── -->
     <section class="hero" aria-label="Welcome">
-      <svg class="hero__accent" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line class="hero__accent-line" x1="0" y1="400" x2="400" y2="0" stroke="#00AEEF" stroke-width="2"/>
-        <line class="hero__accent-line" x1="50" y1="400" x2="400" y2="50" stroke="#00AEEF" stroke-width="1" opacity="0.5"/>
-        <circle cx="200" cy="200" r="150" stroke="#00AEEF" stroke-width="1" opacity="0.2"/>
-        <circle cx="200" cy="200" r="100" stroke="#00AEEF" stroke-width="1" opacity="0.15"/>
-      </svg>
+      <div class="hero__video-wrap" aria-hidden="true">
+        <video class="hero__video" autoplay muted loop playsinline>
+          <source src="assets/img/london-hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero__video-overlay"></div>
+      </div>
 
       <div class="hero__content">
-        <h1 class="hero__headline">Consulting <span>Excellence</span> in London</h1>
+        <img src="assets/img/logo-white.png" alt="CCN London" class="hero__logo">
+        <h1 class="hero__headline">Consulting Excellence<br>in London</h1>
         <p class="hero__subheadline">Cambridge Consulting Network &middot; London Office &middot; Est. 2013</p>
         <div class="hero__ctas">
-          <a href="partnerships.html" class="btn btn--primary btn--large">Partner With Us</a>
-          <a href="join.html" class="btn btn--outline btn--large">Join Our Team</a>
+          <a href="partnerships.html" class="btn btn--hero">Partner With Us</a>
+          <a href="join.html" class="btn btn--hero btn--hero-outline">Join Our Team</a>
         </div>
       </div>
     </section>
@@ -110,19 +111,19 @@
       <div class="container">
         <div class="stats__grid">
           <div class="stats__item">
-            <div class="stats__number" data-target="50" data-suffix="+">0</div>
+            <div class="stats__number" data-target="200" data-suffix="+">0</div>
             <div class="stats__label">Projects Delivered</div>
           </div>
           <div class="stats__item">
-            <div class="stats__number" data-target="160" data-suffix="+">0</div>
-            <div class="stats__label">Consultants / Year</div>
+            <div class="stats__number" data-target="80" data-suffix="+">0</div>
+            <div class="stats__label">Consultants Per Year</div>
           </div>
           <div class="stats__item">
-            <div class="stats__number" data-target="30" data-suffix="+">0</div>
-            <div class="stats__label">Per Cycle</div>
+            <div class="stats__number" data-target="3" data-suffix="">0</div>
+            <div class="stats__label">Cycles Per Year</div>
           </div>
           <div class="stats__item">
-            <div class="stats__number" data-target="2" data-suffix="nd">0</div>
+            <div class="stats__number stats__number--static">2nd</div>
             <div class="stats__label">Largest Globally</div>
           </div>
         </div>
@@ -132,14 +133,14 @@
     <!-- ── Value Propositions ── -->
     <section class="section" aria-label="Value propositions">
       <div class="container">
-        <h2 class="text-cyan mb-lg" style="text-align:center;">Why CCN London</h2>
+        <h2 class="text-cyan mb-xl" style="text-align:center;">Why CCN London</h2>
         <div class="cards__grid">
           <div class="card reveal">
             <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
             </svg>
-            <h3 class="card__title">Data-Driven Insights</h3>
-            <p class="card__text">Research-intensive analysis for strategic decisions. Every recommendation backed by rigorous quantitative and qualitative evidence.</p>
+            <h3 class="card__title">Research That Moves Markets</h3>
+            <p class="card__text">Deep-dive competitive analysis, TAM/SAM/SOM sizing, and investor-ready market research. Every recommendation stress-tested with quantitative and qualitative evidence.</p>
           </div>
 
           <div class="card reveal reveal--delay-1">
@@ -149,8 +150,8 @@
               <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
               <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
             </svg>
-            <h3 class="card__title">Elite Talent Pipeline</h3>
-            <p class="card__text">Recruits from LSE, Imperial, UCL and King's College London. Mentored by professionals from McKinsey, Deloitte, OC&amp;C, EY, Bain, BCG and Strategy&amp;.</p>
+            <h3 class="card__title">Undergraduate, Masters &amp; PhD Talent</h3>
+            <p class="card__text">Consultants from elite London universities — spanning economics, engineering, data science and beyond. Mentored by professionals from McKinsey, BCG, Bain, Deloitte, EY, OC&amp;C and Strategy&amp;.</p>
           </div>
 
           <div class="card reveal reveal--delay-2">
@@ -160,8 +161,8 @@
               <line x1="16" y1="13" x2="8" y2="13"></line>
               <line x1="16" y1="17" x2="8" y2="17"></line>
             </svg>
-            <h3 class="card__title">Tailored Deliverables</h3>
-            <p class="card__text">Competitive analysis, financial modelling, go-to-market strategy and more. Every engagement customised to client needs.</p>
+            <h3 class="card__title">Built for Startups</h3>
+            <p class="card__text">Go-to-market playbooks, financial models, pricing strategy and pitch deck support — designed for seed to Series A ventures that need to move fast and raise smart.</p>
           </div>
 
           <div class="card reveal reveal--delay-3">
@@ -169,8 +170,8 @@
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
-            <h3 class="card__title">Zero Cost, Full Commitment</h3>
-            <p class="card__text">Pro-bono with professional-grade output. Eight weeks of dedicated consulting at no charge to our clients.</p>
+            <h3 class="card__title">8 Weeks. Zero Cost. Full Commitment.</h3>
+            <p class="card__text">Professional-grade output, completely pro-bono. Dedicated teams of 4–6 consultants working full cycles on your most pressing strategic questions.</p>
           </div>
         </div>
       </div>
@@ -179,21 +180,33 @@
     <!-- ── Partner Logos ── -->
     <section class="partners section" aria-label="Our partners">
       <div class="container">
-        <h2 class="partners__heading text-cyan">Trusted By</h2>
-        <div class="partners__track-wrapper">
-          <div class="partners__track">
-            <img src="assets/img/partners/lse-generate.svg" alt="LSE Generate" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/imperial-white-city.svg" alt="Imperial White City" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/ucl.svg" alt="UCL" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/kings.svg" alt="King's College London" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/mckinsey.svg" alt="McKinsey" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/deloitte.svg" alt="Deloitte" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/occ.svg" alt="OC&C Strategy" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/ey.svg" alt="EY" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/bain.svg" alt="Bain & Company" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/bcg.svg" alt="BCG" class="partners__logo" loading="lazy" width="120" height="60">
-            <img src="assets/img/partners/strategy-and.svg" alt="Strategy&" class="partners__logo" loading="lazy" width="120" height="60">
-          </div>
+        <h2 class="partners__heading text-cyan">Our Network</h2>
+      </div>
+      <div class="partners__track-wrapper">
+        <div class="partners__track">
+          <img src="assets/img/partners/lsegenerate.png" alt="LSE Generate" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/imperial.jpeg" alt="Imperial White City" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/ucl.png" alt="UCL" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/kings.jpeg" alt="King's College London" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/mckinsey.svg" alt="McKinsey" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/deloitte.svg" alt="Deloitte" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/occ.svg" alt="OC&C Strategy" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/ey.svg" alt="EY" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/bain.svg" alt="Bain & Company" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/bcg.svg" alt="BCG" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/strategy-and.svg" alt="Strategy&" class="partners__logo" loading="lazy" width="120" height="60">
+          <!-- Duplicate for seamless loop -->
+          <img src="assets/img/partners/lsegenerate.png" alt="LSE Generate" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/imperial.jpeg" alt="Imperial White City" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/ucl.png" alt="UCL" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/kings.jpeg" alt="King's College London" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/mckinsey.svg" alt="McKinsey" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/deloitte.svg" alt="Deloitte" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/occ.svg" alt="OC&C Strategy" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/ey.svg" alt="EY" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/bain.svg" alt="Bain & Company" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/bcg.svg" alt="BCG" class="partners__logo" loading="lazy" width="120" height="60">
+          <img src="assets/img/partners/strategy-and.svg" alt="Strategy&" class="partners__logo" loading="lazy" width="120" height="60">
         </div>
       </div>
     </section>
@@ -214,10 +227,9 @@
     <div class="container">
       <div class="footer__grid">
         <div>
-          <img src="assets/img/logo-white.svg" alt="CCN London" class="footer__logo" width="180" height="48">
-          <p class="footer__text">Cambridge Consulting Network is the 2nd largest student project-consultancy globally, delivering data-driven strategic consulting from London's top universities.</p>
+          <img src="assets/img/logo-white.png" alt="CCN London" class="footer__logo" width="120" height="120">
+          <p class="footer__text">Cambridge Consulting Network London delivers data-driven strategic consulting from LSE, Imperial, UCL and King's College London.</p>
         </div>
-
         <div>
           <h3 class="footer__heading">Quick Links</h3>
           <a href="about.html" class="footer__link">About</a>
@@ -228,31 +240,28 @@
           <a href="join.html" class="footer__link">Join Us</a>
           <a href="contact.html" class="footer__link">Contact</a>
         </div>
-
         <div>
-          <h3 class="footer__heading">Contact</h3>
-          <a href="mailto:ccnlondonclients@gmail.com" class="footer__link">ccnlondonclients@gmail.com</a>
+          <h3 class="footer__heading">Get in Touch</h3>
+          <p class="footer__label">General</p>
+          <a href="mailto:ccnlondon2025@gmail.com" class="footer__email">ccnlondon2025@gmail.com</a>
+          <p class="footer__label">Clients</p>
+          <a href="mailto:ccnlondonclients@gmail.com" class="footer__email">ccnlondonclients@gmail.com</a>
+          <p class="footer__label">Partnerships</p>
+          <a href="mailto:ccnlondonexternal@gmail.com" class="footer__email">ccnlondonexternal@gmail.com</a>
+          <p class="footer__label">Recruiting</p>
+          <a href="mailto:ccnlondonrecruiting@gmail.com" class="footer__email">ccnlondonrecruiting@gmail.com</a>
           <div class="footer__socials">
-            <a href="#" class="footer__social-btn" aria-label="LinkedIn">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
+            <a href="https://www.linkedin.com/company/cambridge-consulting-network-london/" target="_blank" rel="noopener noreferrer" class="footer__social-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
             </a>
-            <a href="#" class="footer__social-btn" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
+            <a href="https://www.instagram.com/ccnlondon" target="_blank" rel="noopener noreferrer" class="footer__social-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
             </a>
           </div>
         </div>
       </div>
-
       <div class="footer__bottom">
-        <p>&copy; 2026 Cambridge Consulting Network. Registered under the Registry of Companies in England &amp; Wales.</p>
+        <p>&copy; 2026 Cambridge Consulting Network. Registered in England &amp; Wales.</p>
       </div>
     </div>
   </footer>
